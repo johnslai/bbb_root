@@ -1,0 +1,425 @@
+{
+    "devices": {
+	    "iio": {
+		    "device":
+		    {
+			    "unified_iio": "1",
+			    "iio_dir": "/sys/bus/iio/devices/",
+			    "iio_driver": "/dev/iio:device",
+			    "_comment_iio_dir": "fixtures/test_readerinterface_continuity",
+			    "_comment_iio_driver": "fixtures/test_readerinterface_continuity/pydaq.10s.dump",
+			    "id": "0",
+			    "enabled": "1",
+			    "sim": "0",
+			"sim_info": 
+			  {
+			    "sim_channels": "10",
+			    "sim_channels_master": "7",
+			    "sim_channels_slave": "3"
+			  },
+			    "debug":
+			    {
+				    "_comment_ raw_dump": "./pipe",
+				    "csv_dump": "./dump1.csv"
+
+			    }
+		    }
+	    }
+    },
+    "waveparser": {
+      "settings": {
+        "window_size": "10",
+        "change_history": "5",
+        "change_threshold": "4.0",
+        "reset_threshold": "1.0",
+        "heart_beat": "7200"
+      }
+    },
+    "file_writer": {
+	    "enabled": "0" 
+    },
+    "channels": {
+      "channel0": {
+        "id": "0",
+        "name": "AC Mains",
+        "type": "voltage",
+        "scale": "0.00008966739",
+        "enabled": "1"
+      },
+      "channel1": {
+        "id": "1",
+        "name": "AC Mains",
+        "type": "voltage",
+        "scale": "0.00008966739",
+        "enabled": "1"
+      },
+      "channel2": {
+        "id": "2",
+        "name": "AC Mains",
+        "type": "voltage",
+        "scale": "0.00008966739",
+        "enabled": "1"
+      },
+      "channel3": {
+        "id": "3",
+        "name": "AC Mains",
+        "type": "voltage",
+        "scale": "0.00008966739",
+        "enabled": "1"
+      },
+      "channel4": {
+        "id": "4",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel5": {
+        "id": "5",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel6": {
+        "id": "6",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel7": {
+        "id": "7",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel8": {
+        "id": "8",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel9": {
+        "id": "9",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel10": {
+        "id": "10",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel11": {
+        "id": "11",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel12": {
+        "id": "12",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel13": {
+        "id": "13",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel14": {
+        "id": "14",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel15": {
+        "id": "15",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel16": {
+        "id": "16",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel17": {
+        "id": "17",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel18": {
+        "id": "18",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel19": {
+        "id": "19",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel20": {
+        "id": "20",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel21": {
+        "id": "21",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel22": {
+        "id": "22",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel23": {
+        "id": "23",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel24": {
+        "id": "24",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel25": {
+        "id": "25",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel26": {
+        "id": "26",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel27": {
+        "id": "27",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel28": {
+        "id": "28",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel29": {
+        "id": "29",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel30": {
+        "id": "30",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel31": {
+        "id": "31",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel32": {
+        "id": "32",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel33": {
+        "id": "33",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel34": {
+        "id": "34",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel35": {
+        "id": "35",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel36": {
+        "id": "36",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel37": {
+        "id": "37",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel38": {
+        "id": "38",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel39": {
+        "id": "39",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel40": {
+        "id": "40",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel41": {
+        "id": "41",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel42": {
+        "id": "42",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      },
+      "channel43": {
+        "id": "43",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "C"
+      },
+      "channel44": {
+        "id": "44",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "B"
+      },
+      "channel45": {
+        "id": "45",
+        "name": "Circuit 1",
+        "type": "current",
+        "scale": "0.0000051557",
+        "enabled": "1",
+        "phase": "A"
+      }
+    },
+    "dbus": {
+      "server": {
+        "name": "com.verdigristech.GDAQ",
+        "path": "/com/verdigristech/GDAQ/Ctrl"
+      }
+    },
+    "bud": {
+      "hw_rev": "FILLREVFILL",
+      "sw_rev": "FILLSWREVFILL",
+      "serial": "FILLSERIALFILL"
+    },
+    "cloud": {
+      "server": {
+        "enabled": "0",
+        "url": "http://building.ai/api/states",
+        "retry_interval": "10"
+      }
+    }
+}
