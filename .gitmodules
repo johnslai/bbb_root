@@ -1,0 +1,3 @@
+[submodule "vt-gdaq"]
+	path = vt-gdaq
+	url = https://github.com/VerdigrisTech/vt-gdaq.git
